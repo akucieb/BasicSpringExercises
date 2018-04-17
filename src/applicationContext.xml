@@ -11,15 +11,6 @@
 
     <!-- Define your beans here -->
 
-    <bean id="myFortuneService"
-          class="com.akucieba.spring.MyFortuneTeller">
-    </bean>
-
-    <bean id="mySwimmerCoach"
-          class="com.akucieba.spring.SwimmerCoach">
-        <constructor-arg ref="myFortuneService"/>
-    </bean>
-
 </beans>
 
 
